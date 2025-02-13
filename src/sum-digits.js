@@ -19,7 +19,7 @@ function getSumOfDigits(n) {
     sum += parseInt(arr[i]);
   }
   if (sum > 9) {
-    return isSumLess(sum);
+    return getSumOfDigits(sum);
   }
   else {
     return sum;
