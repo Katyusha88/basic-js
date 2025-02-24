@@ -20,8 +20,8 @@ function countCats(matrix) {
     for (let j = 0; j < matrix[i].length; j ++) {
       if (matrix[i][j] === '^^') count ++;
     }
-    return count;
   }
+  return count;
   // throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
 }
